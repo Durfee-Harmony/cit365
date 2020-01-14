@@ -1,0 +1,5 @@
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\slinging_code\ConsoleApplication\ConsoleApplication\bin\Release\ConsoleApplication.exe.config
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\slinging_code\ConsoleApplication\ConsoleApplication\bin\Release\ConsoleApplication.exe
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\slinging_code\ConsoleApplication\ConsoleApplication\bin\Release\ConsoleApplication.pdb
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\slinging_code\ConsoleApplication\ConsoleApplication\obj\Release\ConsoleApplication.exe
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\slinging_code\ConsoleApplication\ConsoleApplication\obj\Release\ConsoleApplication.pdb
