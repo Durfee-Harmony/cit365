@@ -1,0 +1,9 @@
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MathQuiz\MathQuiz\MathQuiz\bin\Debug\MathQuiz.exe.config
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MathQuiz\MathQuiz\MathQuiz\bin\Debug\MathQuiz.exe
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MathQuiz\MathQuiz\MathQuiz\bin\Debug\MathQuiz.pdb
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.csprojAssemblyReference.cache
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.Form1.resources
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.Properties.Resources.resources
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.csproj.GenerateResource.cache
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.exe
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MathQuiz\MathQuiz\MathQuiz\obj\Debug\MathQuiz.pdb
