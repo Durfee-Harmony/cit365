@@ -1,0 +1,12 @@
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk.csprojAssemblyReference.cache
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk.AddQuote.resources
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk.MainMenu.resources
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk.Properties.Resources.resources
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk.csproj.GenerateResource.cache
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\bin\Debug\MegaDesk-ryancross.exe.config
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\bin\Debug\MegaDesk-ryancross.exe
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\bin\Debug\MegaDesk-ryancross.pdb
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk-ryancross.exe
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk-ryancross.pdb
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk.ViewAllQuotes.resources
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk.SearchQuotes.resources
