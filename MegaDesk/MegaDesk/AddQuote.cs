@@ -37,5 +37,9 @@ namespace MegaDesk
       this.Close();
     }
 
+    private void FormClosingEvent(object sender, FormClosingEventArgs e)
+    {
+      this.mainMenu.Show();
+    }
   }
 }

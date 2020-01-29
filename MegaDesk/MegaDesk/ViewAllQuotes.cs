@@ -24,5 +24,10 @@ namespace MegaDesk
       this.mainMenu.Show();
       this.Close();
     }
-  }
+
+        private void ViewAllQuotes_FormClosing(object sender, FormClosingEventArgs e)
+        {
+      this.mainMenu.Show();
+        }
+    }
 }

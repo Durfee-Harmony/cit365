@@ -41,7 +41,6 @@
       this.ComboDeskMaterials = new System.Windows.Forms.ComboBox();
       this.comboBox1 = new System.Windows.Forms.ComboBox();
       this.BtnSaveQuote = new System.Windows.Forms.Button();
-      this.BtnValidateQuote = new System.Windows.Forms.Button();
       this.BtnExit = new System.Windows.Forms.Button();
       ((System.ComponentModel.ISupportInitialize)(this.DeskWidth)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.DeskHeight)).BeginInit();
@@ -125,7 +124,7 @@
       // label4
       // 
       this.label4.AutoSize = true;
-      this.label4.Location = new System.Drawing.Point(194, 311);
+      this.label4.Location = new System.Drawing.Point(194, 302);
       this.label4.Name = "label4";
       this.label4.Size = new System.Drawing.Size(132, 17);
       this.label4.TabIndex = 11;
@@ -192,11 +191,11 @@
       this.comboBox1.AllowDrop = true;
       this.comboBox1.FormattingEnabled = true;
       this.comboBox1.Items.AddRange(new object[] {
-            "3 Days",
-            "5 Days",
-            "7 Days",
-            "14 Days"});
-      this.comboBox1.Location = new System.Drawing.Point(364, 310);
+            "Rush3Days",
+            "Rush5Days",
+            "Rush7Days",
+            "Normal14Days"});
+      this.comboBox1.Location = new System.Drawing.Point(364, 301);
       this.comboBox1.MaxDropDownItems = 5;
       this.comboBox1.Name = "comboBox1";
       this.comboBox1.Size = new System.Drawing.Size(121, 24);
@@ -211,15 +210,6 @@
       this.BtnSaveQuote.TabIndex = 17;
       this.BtnSaveQuote.Text = "Save Quote";
       this.BtnSaveQuote.UseVisualStyleBackColor = true;
-      // 
-      // BtnValidateQuote
-      // 
-      this.BtnValidateQuote.Location = new System.Drawing.Point(294, 360);
-      this.BtnValidateQuote.Name = "BtnValidateQuote";
-      this.BtnValidateQuote.Size = new System.Drawing.Size(75, 23);
-      this.BtnValidateQuote.TabIndex = 18;
-      this.BtnValidateQuote.Text = "Validate";
-      this.BtnValidateQuote.UseVisualStyleBackColor = true;
       // 
       // BtnExit
       // 
@@ -237,7 +227,6 @@
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(689, 450);
       this.Controls.Add(this.BtnExit);
-      this.Controls.Add(this.BtnValidateQuote);
       this.Controls.Add(this.BtnSaveQuote);
       this.Controls.Add(this.comboBox1);
       this.Controls.Add(this.ComboDeskMaterials);
@@ -253,6 +242,7 @@
       this.Controls.Add(this.TxtCustomerName);
       this.Name = "AddQuote";
       this.Text = "Add New Quote";
+      this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormClosingEvent);
       ((System.ComponentModel.ISupportInitialize)(this.DeskWidth)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.DeskHeight)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
@@ -276,7 +266,6 @@
     private System.Windows.Forms.ComboBox ComboDeskMaterials;
     private System.Windows.Forms.ComboBox comboBox1;
     private System.Windows.Forms.Button BtnSaveQuote;
-    private System.Windows.Forms.Button BtnValidateQuote;
     private System.Windows.Forms.Button BtnExit;
   }
 }

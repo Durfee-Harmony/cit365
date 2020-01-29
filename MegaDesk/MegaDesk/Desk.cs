@@ -8,5 +8,17 @@ namespace MegaDesk
 {
   class Desk
   {
+    int Width;
+    int Depth;
+    int NumberOfDrawers;
+    enum MaterialsUsed
+    {
+      Oak = 1,
+      Laminate = 2,
+      Pine = 3,
+      Rosewood = 4,
+      Veneer = 5
+
+    };
   }
 }
