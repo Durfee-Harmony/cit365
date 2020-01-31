@@ -2,6 +2,7 @@
 
 namespace MegaDesk
 {
+	// Ryan's comment
 	public class DeskQuote
 	{
 		string CustomerName;
