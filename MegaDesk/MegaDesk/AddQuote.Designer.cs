@@ -33,18 +33,19 @@
       this.TxtDeskWidth = new System.Windows.Forms.Label();
       this.label2 = new System.Windows.Forms.Label();
       this.label3 = new System.Windows.Forms.Label();
-      this.DeskWidth = new System.Windows.Forms.NumericUpDown();
+      this.NumDeskWidth = new System.Windows.Forms.NumericUpDown();
       this.label1 = new System.Windows.Forms.Label();
       this.label4 = new System.Windows.Forms.Label();
-      this.DeskHeight = new System.Windows.Forms.NumericUpDown();
-      this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-      this.comSurfaceMaterial = new System.Windows.Forms.ComboBox();
-      this.comboBox1 = new System.Windows.Forms.ComboBox();
+      this.NumDeskDepth = new System.Windows.Forms.NumericUpDown();
+      this.NumNumberOfDrawers = new System.Windows.Forms.NumericUpDown();
+      this.ComDesktopMaterial = new System.Windows.Forms.ComboBox();
+      this.ComDaysToComplete = new System.Windows.Forms.ComboBox();
       this.BtnSaveQuote = new System.Windows.Forms.Button();
       this.BtnExit = new System.Windows.Forms.Button();
-      ((System.ComponentModel.ISupportInitialize)(this.DeskWidth)).BeginInit();
-      ((System.ComponentModel.ISupportInitialize)(this.DeskHeight)).BeginInit();
-      ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+      this.OutputBox = new System.Windows.Forms.TextBox();
+      ((System.ComponentModel.ISupportInitialize)(this.NumDeskWidth)).BeginInit();
+      ((System.ComponentModel.ISupportInitialize)(this.NumDeskDepth)).BeginInit();
+      ((System.ComponentModel.ISupportInitialize)(this.NumNumberOfDrawers)).BeginInit();
       this.SuspendLayout();
       // 
       // TxtCustomerName
@@ -77,9 +78,9 @@
       this.label2.AutoSize = true;
       this.label2.Location = new System.Drawing.Point(194, 160);
       this.label2.Name = "label2";
-      this.label2.Size = new System.Drawing.Size(123, 17);
+      this.label2.Size = new System.Drawing.Size(120, 17);
       this.label2.TabIndex = 5;
-      this.label2.Text = "Enter desk height:";
+      this.label2.Text = "Enter desk depth:";
       // 
       // label3
       // 
@@ -90,23 +91,23 @@
       this.label3.TabIndex = 7;
       this.label3.Text = "Enter drawer total:";
       // 
-      // DeskWidth
+      // NumDeskWidth
       // 
-      this.DeskWidth.Location = new System.Drawing.Point(366, 116);
-      this.DeskWidth.Maximum = new decimal(new int[] {
+      this.NumDeskWidth.Location = new System.Drawing.Point(366, 116);
+      this.NumDeskWidth.Maximum = new decimal(new int[] {
             96,
             0,
             0,
             0});
-      this.DeskWidth.Minimum = new decimal(new int[] {
+      this.NumDeskWidth.Minimum = new decimal(new int[] {
             24,
             0,
             0,
             0});
-      this.DeskWidth.Name = "DeskWidth";
-      this.DeskWidth.Size = new System.Drawing.Size(120, 22);
-      this.DeskWidth.TabIndex = 8;
-      this.DeskWidth.Value = new decimal(new int[] {
+      this.NumDeskWidth.Name = "NumDeskWidth";
+      this.NumDeskWidth.Size = new System.Drawing.Size(120, 22);
+      this.NumDeskWidth.TabIndex = 8;
+      this.NumDeskWidth.Value = new decimal(new int[] {
             24,
             0,
             0,
@@ -126,75 +127,75 @@
       this.label4.AutoSize = true;
       this.label4.Location = new System.Drawing.Point(194, 302);
       this.label4.Name = "label4";
-      this.label4.Size = new System.Drawing.Size(132, 17);
+      this.label4.Size = new System.Drawing.Size(121, 17);
       this.label4.TabIndex = 11;
-      this.label4.Text = "Days to completion:";
+      this.label4.Text = "Days to complete:";
       // 
-      // DeskHeight
+      // NumDeskDepth
       // 
-      this.DeskHeight.Location = new System.Drawing.Point(365, 160);
-      this.DeskHeight.Maximum = new decimal(new int[] {
+      this.NumDeskDepth.Location = new System.Drawing.Point(365, 160);
+      this.NumDeskDepth.Maximum = new decimal(new int[] {
             48,
             0,
             0,
             0});
-      this.DeskHeight.Minimum = new decimal(new int[] {
+      this.NumDeskDepth.Minimum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-      this.DeskHeight.Name = "DeskHeight";
-      this.DeskHeight.Size = new System.Drawing.Size(120, 22);
-      this.DeskHeight.TabIndex = 13;
-      this.DeskHeight.Value = new decimal(new int[] {
+      this.NumDeskDepth.Name = "NumDeskDepth";
+      this.NumDeskDepth.Size = new System.Drawing.Size(120, 22);
+      this.NumDeskDepth.TabIndex = 13;
+      this.NumDeskDepth.Value = new decimal(new int[] {
             24,
             0,
             0,
             0});
       // 
-      // numericUpDown3
+      // NumNumberOfDrawers
       // 
-      this.numericUpDown3.Location = new System.Drawing.Point(365, 204);
-      this.numericUpDown3.Maximum = new decimal(new int[] {
+      this.NumNumberOfDrawers.Location = new System.Drawing.Point(365, 204);
+      this.NumNumberOfDrawers.Maximum = new decimal(new int[] {
             7,
             0,
             0,
             0});
-      this.numericUpDown3.Name = "numericUpDown3";
-      this.numericUpDown3.Size = new System.Drawing.Size(120, 22);
-      this.numericUpDown3.TabIndex = 14;
-      this.numericUpDown3.Value = new decimal(new int[] {
+      this.NumNumberOfDrawers.Name = "NumNumberOfDrawers";
+      this.NumNumberOfDrawers.Size = new System.Drawing.Size(120, 22);
+      this.NumNumberOfDrawers.TabIndex = 14;
+      this.NumNumberOfDrawers.Value = new decimal(new int[] {
             7,
             0,
             0,
             0});
       // 
-      // comSurfaceMaterial
+      // ComDesktopMaterial
       // 
-      this.comSurfaceMaterial.AllowDrop = true;
-      this.comSurfaceMaterial.FormattingEnabled = true;
-      this.comSurfaceMaterial.Location = new System.Drawing.Point(365, 254);
-      this.comSurfaceMaterial.MaxDropDownItems = 5;
-      this.comSurfaceMaterial.Name = "comSurfaceMaterial";
-      this.comSurfaceMaterial.Size = new System.Drawing.Size(120, 24);
-      this.comSurfaceMaterial.TabIndex = 15;
-      this.comSurfaceMaterial.Text = "[Choose one]";
+      this.ComDesktopMaterial.AllowDrop = true;
+      this.ComDesktopMaterial.FormattingEnabled = true;
+      this.ComDesktopMaterial.Location = new System.Drawing.Point(365, 254);
+      this.ComDesktopMaterial.MaxDropDownItems = 5;
+      this.ComDesktopMaterial.Name = "ComDesktopMaterial";
+      this.ComDesktopMaterial.Size = new System.Drawing.Size(120, 24);
+      this.ComDesktopMaterial.TabIndex = 15;
+      this.ComDesktopMaterial.Text = "[Choose one]";
       // 
-      // comboBox1
+      // ComDaysToComplete
       // 
-      this.comboBox1.AllowDrop = true;
-      this.comboBox1.FormattingEnabled = true;
-      this.comboBox1.Items.AddRange(new object[] {
-            "Rush3Days",
-            "Rush5Days",
-            "Rush7Days",
-            "Normal14Days"});
-      this.comboBox1.Location = new System.Drawing.Point(364, 301);
-      this.comboBox1.MaxDropDownItems = 5;
-      this.comboBox1.Name = "comboBox1";
-      this.comboBox1.Size = new System.Drawing.Size(121, 24);
-      this.comboBox1.TabIndex = 16;
-      this.comboBox1.Text = "[Choose one]";
+      this.ComDaysToComplete.AllowDrop = true;
+      this.ComDaysToComplete.FormattingEnabled = true;
+      this.ComDaysToComplete.Items.AddRange(new object[] {
+            "3",
+            "5",
+            "7",
+            "14"});
+      this.ComDaysToComplete.Location = new System.Drawing.Point(364, 301);
+      this.ComDaysToComplete.MaxDropDownItems = 5;
+      this.ComDaysToComplete.Name = "ComDaysToComplete";
+      this.ComDaysToComplete.Size = new System.Drawing.Size(121, 24);
+      this.ComDaysToComplete.TabIndex = 16;
+      this.ComDaysToComplete.Text = "[Choose one]";
       // 
       // BtnSaveQuote
       // 
@@ -204,6 +205,7 @@
       this.BtnSaveQuote.TabIndex = 17;
       this.BtnSaveQuote.Text = "Save Quote";
       this.BtnSaveQuote.UseVisualStyleBackColor = true;
+      this.BtnSaveQuote.Click += new System.EventHandler(this.BtnSaveQuote_Click);
       // 
       // BtnExit
       // 
@@ -215,20 +217,28 @@
       this.BtnExit.UseVisualStyleBackColor = true;
       this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
       // 
+      // OutputBox
+      // 
+      this.OutputBox.Location = new System.Drawing.Point(12, 26);
+      this.OutputBox.Name = "OutputBox";
+      this.OutputBox.Size = new System.Drawing.Size(674, 22);
+      this.OutputBox.TabIndex = 20;
+      // 
       // AddQuote
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(689, 450);
+      this.Controls.Add(this.OutputBox);
       this.Controls.Add(this.BtnExit);
       this.Controls.Add(this.BtnSaveQuote);
-      this.Controls.Add(this.comboBox1);
-      this.Controls.Add(this.comSurfaceMaterial);
-      this.Controls.Add(this.numericUpDown3);
-      this.Controls.Add(this.DeskHeight);
+      this.Controls.Add(this.ComDaysToComplete);
+      this.Controls.Add(this.ComDesktopMaterial);
+      this.Controls.Add(this.NumNumberOfDrawers);
+      this.Controls.Add(this.NumDeskDepth);
       this.Controls.Add(this.label4);
       this.Controls.Add(this.label1);
-      this.Controls.Add(this.DeskWidth);
+      this.Controls.Add(this.NumDeskWidth);
       this.Controls.Add(this.label3);
       this.Controls.Add(this.label2);
       this.Controls.Add(this.TxtDeskWidth);
@@ -237,9 +247,9 @@
       this.Name = "AddQuote";
       this.Text = "Add New Quote";
       this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormClosingEvent);
-      ((System.ComponentModel.ISupportInitialize)(this.DeskWidth)).EndInit();
-      ((System.ComponentModel.ISupportInitialize)(this.DeskHeight)).EndInit();
-      ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+      ((System.ComponentModel.ISupportInitialize)(this.NumDeskWidth)).EndInit();
+      ((System.ComponentModel.ISupportInitialize)(this.NumDeskDepth)).EndInit();
+      ((System.ComponentModel.ISupportInitialize)(this.NumNumberOfDrawers)).EndInit();
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -252,14 +262,15 @@
         private System.Windows.Forms.Label TxtDeskWidth;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.NumericUpDown DeskWidth;
+        private System.Windows.Forms.NumericUpDown NumDeskWidth;
     private System.Windows.Forms.Label label1;
     private System.Windows.Forms.Label label4;
-    private System.Windows.Forms.NumericUpDown DeskHeight;
-    private System.Windows.Forms.NumericUpDown numericUpDown3;
-    private System.Windows.Forms.ComboBox comSurfaceMaterial;
-    private System.Windows.Forms.ComboBox comboBox1;
+    private System.Windows.Forms.NumericUpDown NumDeskDepth;
+    private System.Windows.Forms.NumericUpDown NumNumberOfDrawers;
+    private System.Windows.Forms.ComboBox ComDesktopMaterial;
+    private System.Windows.Forms.ComboBox ComDaysToComplete;
     private System.Windows.Forms.Button BtnSaveQuote;
     private System.Windows.Forms.Button BtnExit;
+    private System.Windows.Forms.TextBox OutputBox;
   }
 }

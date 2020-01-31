@@ -19,16 +19,13 @@ namespace MegaDesk
       this.mainMenu = mainMenu;
       MainMenu _mainMenu = mainMenu;
 
-      List<Desk.DesktopMaterial> materials = Enum.GetValues(typeof(Desk.DesktopMaterial))
-                                                         .Cast<Desk.DesktopMaterial>()
+      List<DesktopMaterial> materials = Enum.GetValues(typeof(DesktopMaterial))
+                                                         .Cast<DesktopMaterial>()
                                                           .ToList();
-      comSurfaceMaterial.DataSource = materials;
-      comSurfaceMaterial.SelectedIndex = -1;
+      ComDesktopMaterial.DataSource = materials;
+      ComDesktopMaterial.SelectedIndex = -1;
     }
-    private void button3_Click(object sender, EventArgs e)
-    {
-    // search quotes
-    }
+
 
     private void BtnExit_Click(object sender, EventArgs e)
     {
@@ -39,6 +36,25 @@ namespace MegaDesk
     private void FormClosingEvent(object sender, FormClosingEventArgs e)
     {
       this.mainMenu.Show();
+    }
+
+    private void BtnSaveQuote_Click(object sender, EventArgs e)
+    {
+      Desk userDesk = new Desk();
+      userDesk.Width = (int)(NumDeskWidth.Value);
+      userDesk.Depth = (int)(NumDeskDepth.Value);
+      userDesk.NumberOfDrawers = (int)(NumNumberOfDrawers.Value);
+      userDesk.DesktopMaterial = (DesktopMaterial)ComDesktopMaterial.SelectedItem;
+
+      DeskQuote userQuote = new DeskQuote();
+      userQuote.CustomerName = TxtCustomerName.Text;
+      userQuote.DaysToComplete = Convert.ToInt32(ComDaysToComplete.SelectedValue);
+      userQuote.Desk = userDesk;
+      userQuote.getRushOrderPrices();
+
+      userQuote.CalculateQuotePrice();
+
+      OutputBox.Text = userDesk.ToString();
     }
   }
 }
