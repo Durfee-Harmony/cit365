@@ -17,6 +17,8 @@ namespace MegaDesk
     {
       InitializeComponent();
       this.mainMenu = mainMenu; 
+
+      
     }
 
     private void BtnExit_Click(object sender, EventArgs e)

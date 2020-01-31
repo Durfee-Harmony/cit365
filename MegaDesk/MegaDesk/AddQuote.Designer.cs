@@ -38,7 +38,7 @@
       this.label4 = new System.Windows.Forms.Label();
       this.DeskHeight = new System.Windows.Forms.NumericUpDown();
       this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-      this.ComboDeskMaterials = new System.Windows.Forms.ComboBox();
+      this.comSurfaceMaterial = new System.Windows.Forms.ComboBox();
       this.comboBox1 = new System.Windows.Forms.ComboBox();
       this.BtnSaveQuote = new System.Windows.Forms.Button();
       this.BtnExit = new System.Windows.Forms.Button();
@@ -169,22 +169,16 @@
             0,
             0});
       // 
-      // ComboDeskMaterials
+      // comSurfaceMaterial
       // 
-      this.ComboDeskMaterials.AllowDrop = true;
-      this.ComboDeskMaterials.FormattingEnabled = true;
-      this.ComboDeskMaterials.Items.AddRange(new object[] {
-            "Laminate",
-            "Oak",
-            "Rosewood",
-            "Veneer",
-            "Pine"});
-      this.ComboDeskMaterials.Location = new System.Drawing.Point(365, 254);
-      this.ComboDeskMaterials.MaxDropDownItems = 5;
-      this.ComboDeskMaterials.Name = "ComboDeskMaterials";
-      this.ComboDeskMaterials.Size = new System.Drawing.Size(120, 24);
-      this.ComboDeskMaterials.TabIndex = 15;
-      this.ComboDeskMaterials.Text = "[Choose one]";
+      this.comSurfaceMaterial.AllowDrop = true;
+      this.comSurfaceMaterial.FormattingEnabled = true;
+      this.comSurfaceMaterial.Location = new System.Drawing.Point(365, 254);
+      this.comSurfaceMaterial.MaxDropDownItems = 5;
+      this.comSurfaceMaterial.Name = "comSurfaceMaterial";
+      this.comSurfaceMaterial.Size = new System.Drawing.Size(120, 24);
+      this.comSurfaceMaterial.TabIndex = 15;
+      this.comSurfaceMaterial.Text = "[Choose one]";
       // 
       // comboBox1
       // 
@@ -229,7 +223,7 @@
       this.Controls.Add(this.BtnExit);
       this.Controls.Add(this.BtnSaveQuote);
       this.Controls.Add(this.comboBox1);
-      this.Controls.Add(this.ComboDeskMaterials);
+      this.Controls.Add(this.comSurfaceMaterial);
       this.Controls.Add(this.numericUpDown3);
       this.Controls.Add(this.DeskHeight);
       this.Controls.Add(this.label4);
@@ -263,7 +257,7 @@
     private System.Windows.Forms.Label label4;
     private System.Windows.Forms.NumericUpDown DeskHeight;
     private System.Windows.Forms.NumericUpDown numericUpDown3;
-    private System.Windows.Forms.ComboBox ComboDeskMaterials;
+    private System.Windows.Forms.ComboBox comSurfaceMaterial;
     private System.Windows.Forms.ComboBox comboBox1;
     private System.Windows.Forms.Button BtnSaveQuote;
     private System.Windows.Forms.Button BtnExit;

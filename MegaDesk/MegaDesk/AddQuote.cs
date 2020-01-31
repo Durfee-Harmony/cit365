@@ -17,14 +17,13 @@ namespace MegaDesk
     {
       InitializeComponent();
       this.mainMenu = mainMenu;
-     // _mainMenu = mainMenu;
-       //List<MegaDesk.DesktopMaterial> materials = Enum.GetValues(typeof(MegaDesk.DesktopMaterial))
-         //                                                   .Cast<MegaDesk.DesktopMaterial>()
-           //                                                    .ToList();
+      MainMenu _mainMenu = mainMenu;
 
-      // comSurfaceMaterial.DataSource = materials;
-
-      // comSurfaceMaterial.SelectedIndex = -1;
+      List<Desk.DesktopMaterial> materials = Enum.GetValues(typeof(Desk.DesktopMaterial))
+                                                         .Cast<Desk.DesktopMaterial>()
+                                                          .ToList();
+      comSurfaceMaterial.DataSource = materials;
+      comSurfaceMaterial.SelectedIndex = -1;
     }
     private void button3_Click(object sender, EventArgs e)
     {

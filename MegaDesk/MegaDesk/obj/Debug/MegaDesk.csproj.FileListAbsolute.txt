@@ -10,3 +10,6 @@ C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\Me
 C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk-ryancross.pdb
 C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk.ViewAllQuotes.resources
 C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk.SearchQuotes.resources
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ryanlukecross\Documents\2020_Winter\Software_Dev_NET\cit365\MegaDesk\MegaDesk\obj\Debug\MegaDesk.csproj.CopyComplete
