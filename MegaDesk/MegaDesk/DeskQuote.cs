@@ -5,6 +5,7 @@ namespace MegaDesk
 	// Ryan's comment
 	public class DeskQuote
 	{
+// Nathan
 		string CustomerName;
 		int DaysToComplete;
 		Desk desk;
