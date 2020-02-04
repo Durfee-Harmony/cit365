@@ -8,7 +8,7 @@ namespace MegaDesk
 		public int DaysToComplete {get; set;}
 		public Desk Desk {get; set;}
 		public decimal FinalPrice { get; set; }
-		public int[] PRICES {get; set;}
+		public static int[] PRICES {get; set;}
 		public int BASE_PRICE = 200;
 
 		public void getRushOrderPrices()
@@ -18,7 +18,7 @@ namespace MegaDesk
 			while (reader.EndOfStream == false)
 			{
 				int number = int.Parse(reader.ReadLine());
-				this.PRICES[i++] = number;
+				DeskQuote.PRICES[i++] = number;
 			}
 			reader.Close();			
 		}
