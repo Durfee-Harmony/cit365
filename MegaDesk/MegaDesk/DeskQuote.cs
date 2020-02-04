@@ -8,19 +8,16 @@ namespace MegaDesk
 		public int DaysToComplete {get; set;}
 		public Desk Desk {get; set;}
 		public decimal FinalPrice { get; set; }
-		public static int[] PRICES {get; set;}
+		public string[] PRICES {get; set;}
+
 		public int BASE_PRICE = 200;
 
-		public void getRushOrderPrices()
+		public string[] getRushOrderPrices()
 		{
-			int i = 0;
-			StreamReader reader = new StreamReader("prices.txt");
-			while (reader.EndOfStream == false)
-			{
-				int number = int.Parse(reader.ReadLine());
-				DeskQuote.PRICES[i++] = number;
-			}
-			reader.Close();			
+			var pricesFile = @"rushOrderPrices.txt";
+			string[] prices = File.ReadAllLines(pricesFile);
+			this.PRICES = prices;
+			return prices;
 		}
 
 		public void CalculateQuotePrice()
@@ -63,42 +60,42 @@ namespace MegaDesk
 			{
 				if (surfaceArea < 1000)
 				{
-					deskPrice += PRICES[0];
+					deskPrice += System.Convert.ToDecimal(PRICES[0]);
 				} else if (surfaceArea <= 2000)
 				{
-					deskPrice += PRICES[1];
+					deskPrice += System.Convert.ToDecimal(PRICES[1]);
 				}
 				else
 				{
-					deskPrice += PRICES[2];
+					deskPrice += System.Convert.ToDecimal(PRICES[2]);
 				}
 			} else if (DaysToComplete == 5)
 			{
 				if (surfaceArea < 1000)
 				{
-					deskPrice += PRICES[3];
+					deskPrice += System.Convert.ToDecimal(PRICES[3]);
 				}
 				else if (surfaceArea <= 2000)
 				{
-					deskPrice += PRICES[4];
+					deskPrice += System.Convert.ToDecimal(PRICES[4]);
 				}
 				else
 				{
-					deskPrice += PRICES[5];
+					deskPrice += System.Convert.ToDecimal(PRICES[5]);
 				}
 			} else if (DaysToComplete == 7)
 			{
 				if (surfaceArea < 1000)
 				{
-					deskPrice += PRICES[6];
+					deskPrice += System.Convert.ToDecimal(PRICES[6]);
 				}
 				else if (surfaceArea <= 2000)
 				{
-					deskPrice += PRICES[7];
+					deskPrice += System.Convert.ToDecimal(PRICES[7]);
 				}
 				else
 				{
-					deskPrice += PRICES[8];
+					deskPrice += System.Convert.ToDecimal(PRICES[8]);
 				}
 			}
 			this.FinalPrice = deskPrice;

@@ -46,6 +46,7 @@ namespace MegaDesk
       userDesk.NumberOfDrawers = (int)(NumNumberOfDrawers.Value);
       userDesk.DesktopMaterial = (DesktopMaterial)ComDesktopMaterial.SelectedItem;
 
+      // OutputBox.Text = ComDesktopMaterial.SelectedItem.ToString();
       DeskQuote userQuote = new DeskQuote();
       userQuote.CustomerName = TxtCustomerName.Text;
       userQuote.DaysToComplete = Convert.ToInt32(ComDaysToComplete.SelectedValue);
@@ -54,7 +55,7 @@ namespace MegaDesk
 
       userQuote.CalculateQuotePrice();
 
-      OutputBox.Text = userDesk.ToString();
+      // OutputBox.Text = userQuote.FinalPrice.ToString();
     }
   }
 }
