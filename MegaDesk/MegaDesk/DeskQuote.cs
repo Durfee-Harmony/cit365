@@ -9,6 +9,7 @@ namespace MegaDesk
 		public Desk Desk {get; set;}
 		public decimal FinalPrice { get; set; }
 		public string[] PRICES {get; set;}
+		public decimal QuotePrice { get; set; }
 
 		public int BASE_PRICE = 200;
 

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace MegaDesk
 {
@@ -17,9 +19,35 @@ namespace MegaDesk
     {
       InitializeComponent();
       this.mainMenu = mainMenu;
-    }
+            loadGrid();
+        }
 
-    private void BtnExit_Click(object sender, EventArgs e)
+        private void loadGrid()
+        {
+            var quotesFile = @"quotes.json";
+
+            using (StreamReader reader = new StreamReader(quotesFile))
+            {
+                string quotes = reader.ReadToEnd();
+                List<DeskQuote> deskQuotes = JsonConvert.DeserializeObject<List<DeskQuote>>(quotes);
+
+                dataGridView1.DataSource = deskQuotes.Select(d => new
+                {
+                    Date = d.DaysToComplete,
+                    Customer = d.CustomerName,
+                    Depth = d.Desk.Depth,
+                    Width = d.Desk.Width,
+                    Drawers = d.Desk.NumberOfDrawers,
+                    // SurfaceMaterial = d.Desk.Material,
+                    // DeliveryType = d.DeliveryType,
+                    QuoteAmount = d.QuotePrice.ToString("c")
+
+                }).ToList();
+
+            }
+        }
+
+        private void BtnExit_Click(object sender, EventArgs e)
     {
       this.mainMenu.Show();
       this.Close();
