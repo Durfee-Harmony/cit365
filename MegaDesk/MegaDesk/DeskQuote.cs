@@ -8,7 +8,7 @@ namespace MegaDesk
 		public int DaysToComplete {get; set;}
 		public Desk Desk {get; set;}
 		public decimal FinalPrice { get; set; }
-		public string[] PRICES {get; set;}
+		public static string[] PRICES {get; set;}
 		public decimal QuotePrice { get; set; }
 
 		public int BASE_PRICE = 200;
@@ -17,7 +17,7 @@ namespace MegaDesk
 		{
 			var pricesFile = @"rushOrderPrices.txt";
 			string[] prices = File.ReadAllLines(pricesFile);
-			this.PRICES = prices;
+			PRICES = prices;
 			return prices;
 		}
 

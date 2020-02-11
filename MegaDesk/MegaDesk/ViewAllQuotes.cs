@@ -38,24 +38,23 @@ namespace MegaDesk
                     Depth = d.Desk.Depth,
                     Width = d.Desk.Width,
                     Drawers = d.Desk.NumberOfDrawers,
-                    // SurfaceMaterial = d.Desk.Material,
-                    // DeliveryType = d.DeliveryType,
+                    SurfaceMaterial = d.Desk.DesktopMaterial,
+                    DeliveryType = d.DaysToComplete,
                     QuoteAmount = d.QuotePrice.ToString("c")
-
                 }).ToList();
 
             }
         }
 
         private void BtnExit_Click(object sender, EventArgs e)
-    {
-      this.mainMenu.Show();
-      this.Close();
-    }
+        {
+          this.mainMenu.Show();
+          this.Close();
+        }
 
         private void ViewAllQuotes_FormClosing(object sender, FormClosingEventArgs e)
         {
-      this.mainMenu.Show();
+          this.mainMenu.Show();
         }
     }
 }

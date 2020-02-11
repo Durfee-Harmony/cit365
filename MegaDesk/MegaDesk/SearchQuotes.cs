@@ -45,9 +45,33 @@ namespace MegaDesk
             this.mainMenu.Show();
         }
 
+    private void loadGrid()
+    {
+
+      var quotesFile = @"quotes.json";
+
+      using (StreamReader reader = new StreamReader(quotesFile))
+      {
+        string quotes = reader.ReadToEnd();
+        List<DeskQuote> deskQuotes = JsonConvert.DeserializeObject<List<DeskQuote>>(quotes);
+
+        dataGridView1.DataSource = deskQuotes.Select(d => new
+        {
+          Date = d.DaysToComplete,
+          Customer = d.CustomerName,
+          Depth = d.Desk.Depth,
+          Width = d.Desk.Width,
+          Drawers = d.Desk.NumberOfDrawers,
+          SurfaceMaterial = d.Desk.DesktopMaterial,
+          DeliveryType = d.DaysToComplete,
+          QuoteAmount = d.QuotePrice.ToString("c")
+        }).ToList();
+      }
+    }
 
 
-        private void loadGrid()
+
+    private void loadGrid(DesktopMaterial desktopMaterial)
         {
             var quotesFile = @"quotes.json";
 
@@ -63,25 +87,25 @@ namespace MegaDesk
                     Depth = d.Desk.Depth,
                     Width = d.Desk.Width,
                     Drawers = d.Desk.NumberOfDrawers,
-                   // SurfaceMaterial = d.Desk.Material,
-                   // DeliveryType = d.DeliveryType,
+                    SurfaceMaterial = d.Desk.DesktopMaterial,
+                    DeliveryType = d.DaysToComplete,
                     QuoteAmount = d.QuotePrice.ToString("c")
-
-                }).ToList();
-
+                })
+                .Where(q => q.SurfaceMaterial == desktopMaterial)
+                .ToList();
             }
         }
 
         private void materialType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ComboBox combo;
-            if(combo.SelectedIndex < 0)
+            
+            if(materialType.SelectedIndex < 0)
             {
                 loadGrid();
             }
             else
             {
-                loadGrid((Desk.DesktopMaterials)combo.SelectedValue);
+                loadGrid((DesktopMaterial)materialType.SelectedValue);
             }
         }
     }

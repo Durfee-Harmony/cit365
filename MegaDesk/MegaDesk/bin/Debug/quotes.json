@@ -1,0 +1,41 @@
+[
+  {
+    "BASE_PRICE": 200,
+    "CustomerName": "Jacob Bob",
+    "DaysToComplete": 0,
+    "Desk": {
+      "Width": 96,
+      "Depth": 48,
+      "NumberOfDrawers": 7,
+      "DesktopMaterial": 2
+    },
+    "FinalPrice": 4158.0,
+    "QuotePrice": 0.0
+  },
+  {
+    "BASE_PRICE": 200,
+    "CustomerName": "Bob Sagggggat",
+    "DaysToComplete": 0,
+    "Desk": {
+      "Width": 96,
+      "Depth": 48,
+      "NumberOfDrawers": 7,
+      "DesktopMaterial": 3
+    },
+    "FinalPrice": 4158.0,
+    "QuotePrice": 0.0
+  },
+  {
+    "BASE_PRICE": 200,
+    "CustomerName": "MH HM",
+    "DaysToComplete": 0,
+    "Desk": {
+      "Width": 34,
+      "Depth": 24,
+      "NumberOfDrawers": 4,
+      "DesktopMaterial": 4
+    },
+    "FinalPrice": 400.0,
+    "QuotePrice": 0.0
+  }
+]

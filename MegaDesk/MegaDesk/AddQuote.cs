@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace MegaDesk
 {
@@ -45,8 +48,6 @@ namespace MegaDesk
       userDesk.Depth = (int)(NumDeskDepth.Value);
       userDesk.NumberOfDrawers = (int)(NumNumberOfDrawers.Value);
       userDesk.DesktopMaterial = (DesktopMaterial)ComDesktopMaterial.SelectedItem;
-
-      // OutputBox.Text = ComDesktopMaterial.SelectedItem.ToString();
       DeskQuote userQuote = new DeskQuote();
       userQuote.CustomerName = TxtCustomerName.Text;
       userQuote.DaysToComplete = Convert.ToInt32(ComDaysToComplete.SelectedValue);
@@ -55,8 +56,27 @@ namespace MegaDesk
 
       userQuote.CalculateQuotePrice();
 
-      OutputBox.Text = userQuote.FinalPrice.ToString();
-    }
+      // DEBUG: OutputBox.Text = userQuote.FinalPrice.ToString();
+      
+      var quotesFile = @"quotes.json";
+      var finalJson = " ";
 
+      using (StreamReader reader = new StreamReader(quotesFile))
+      {
+        string quotes = reader.ReadToEnd();
+        var list = (JsonConvert.DeserializeObject<List<DeskQuote>>(quotes));
+        list.Add(userQuote);
+        finalJson = JsonConvert.SerializeObject(list, Formatting.Indented);
+      }
+
+      using (StreamWriter writer = new StreamWriter(quotesFile))
+      {
+        writer.Write(finalJson);
+      }
+
+      this.Hide();
+      this.mainMenu.Show();
+
+    }
   }
 }
