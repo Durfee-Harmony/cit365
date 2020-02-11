@@ -89,7 +89,7 @@ namespace MegaDesk
                     Drawers = d.Desk.NumberOfDrawers,
                     SurfaceMaterial = d.Desk.DesktopMaterial,
                     DeliveryType = d.DaysToComplete,
-                    QuoteAmount = d.QuotePrice.ToString("c")
+                    QuoteAmount = d.FinalPrice.ToString("C")
                 })
                 .Where(q => q.SurfaceMaterial == desktopMaterial)
                 .ToList();

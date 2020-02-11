@@ -14,28 +14,41 @@
   },
   {
     "BASE_PRICE": 200,
-    "CustomerName": "Bob Sagggggat",
-    "DaysToComplete": 0,
+    "CustomerName": "Joeasd",
+    "DaysToComplete": 2,
     "Desk": {
-      "Width": 96,
-      "Depth": 48,
+      "Width": 24,
+      "Depth": 24,
       "NumberOfDrawers": 7,
-      "DesktopMaterial": 3
+      "DesktopMaterial": 2
     },
-    "FinalPrice": 4158.0,
+    "FinalPrice": 580.0,
     "QuotePrice": 0.0
   },
   {
     "BASE_PRICE": 200,
-    "CustomerName": "MH HM",
+    "CustomerName": "Test 1",
     "DaysToComplete": 0,
     "Desk": {
-      "Width": 34,
-      "Depth": 24,
-      "NumberOfDrawers": 4,
-      "DesktopMaterial": 4
+      "Width": 50,
+      "Depth": 48,
+      "NumberOfDrawers": 7,
+      "DesktopMaterial": 1
     },
-    "FinalPrice": 400.0,
+    "FinalPrice": 2030.0,
+    "QuotePrice": 0.0
+  },
+  {
+    "BASE_PRICE": 200,
+    "CustomerName": "Test 2",
+    "DaysToComplete": 2,
+    "Desk": {
+      "Width": 80,
+      "Depth": 30,
+      "NumberOfDrawers": 3,
+      "DesktopMaterial": 3
+    },
+    "FinalPrice": 1790.0,
     "QuotePrice": 0.0
   }
 ]

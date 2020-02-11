@@ -39,8 +39,8 @@ namespace MegaDesk
                     Width = d.Desk.Width,
                     Drawers = d.Desk.NumberOfDrawers,
                     SurfaceMaterial = d.Desk.DesktopMaterial,
-                    DeliveryType = d.DaysToComplete,
-                    QuoteAmount = d.QuotePrice.ToString("c")
+                    DaysToComplete = d.DaysToComplete,
+                    QuoteAmount = d.FinalPrice.ToString("C")
                 }).ToList();
 
             }

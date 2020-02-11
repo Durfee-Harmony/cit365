@@ -2,10 +2,17 @@
 
 namespace MegaDesk
 {
+	public enum DaysToComplete
+	{
+		Rush3Days,
+		Rush5Days,
+		Rush7Days,
+		Normal14Days
+	}
 	public class DeskQuote
 	{
 		public string CustomerName { get; set; }
-		public int DaysToComplete {get; set;}
+		public DaysToComplete DaysToComplete {get; set;}
 		public Desk Desk {get; set;}
 		public decimal FinalPrice { get; set; }
 		public static string[] PRICES {get; set;}
@@ -57,7 +64,7 @@ namespace MegaDesk
 				deskPrice += 125M;
 			}
 
-			if (DaysToComplete == 3)
+			if (DaysToComplete == (DaysToComplete.Rush3Days))
 			{
 				if (surfaceArea < 1000)
 				{
@@ -70,7 +77,7 @@ namespace MegaDesk
 				{
 					deskPrice += System.Convert.ToDecimal(PRICES[2]);
 				}
-			} else if (DaysToComplete == 5)
+			} else if (DaysToComplete == (DaysToComplete.Rush5Days))
 			{
 				if (surfaceArea < 1000)
 				{
@@ -84,7 +91,7 @@ namespace MegaDesk
 				{
 					deskPrice += System.Convert.ToDecimal(PRICES[5]);
 				}
-			} else if (DaysToComplete == 7)
+			} else if (DaysToComplete == (DaysToComplete.Rush7Days))
 			{
 				if (surfaceArea < 1000)
 				{

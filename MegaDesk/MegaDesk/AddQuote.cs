@@ -27,6 +27,12 @@ namespace MegaDesk
                                                           .ToList();
       ComDesktopMaterial.DataSource = materials;
       ComDesktopMaterial.SelectedIndex = -1;
+
+      List<DaysToComplete> daysToComplete = Enum.GetValues(typeof(DaysToComplete))
+                                                         .Cast<DaysToComplete>()
+                                                          .ToList();
+      ComDaysToComplete.DataSource = daysToComplete;
+      ComDaysToComplete.SelectedIndex = -1;
     }
 
 
@@ -50,14 +56,14 @@ namespace MegaDesk
       userDesk.DesktopMaterial = (DesktopMaterial)ComDesktopMaterial.SelectedItem;
       DeskQuote userQuote = new DeskQuote();
       userQuote.CustomerName = TxtCustomerName.Text;
-      userQuote.DaysToComplete = Convert.ToInt32(ComDaysToComplete.SelectedValue);
+      userQuote.DaysToComplete = (DaysToComplete)(ComDaysToComplete.SelectedValue);
+      // OutputBox.Text = userQuote.DaysToComplete.ToString();
       userQuote.Desk = userDesk;
       userQuote.getRushOrderPrices();
-
       userQuote.CalculateQuotePrice();
 
-      // DEBUG: OutputBox.Text = userQuote.FinalPrice.ToString();
-      
+      OutputBox.Text = userQuote.FinalPrice.ToString();
+
       var quotesFile = @"quotes.json";
       var finalJson = " ";
 
@@ -74,8 +80,8 @@ namespace MegaDesk
         writer.Write(finalJson);
       }
 
-      this.Hide();
-      this.mainMenu.Show();
+      // this.Hide();
+      // this.mainMenu.Show();
 
     }
   }
