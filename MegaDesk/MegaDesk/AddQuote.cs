@@ -55,7 +55,8 @@ namespace MegaDesk
 
       userQuote.CalculateQuotePrice();
 
-      // OutputBox.Text = userQuote.FinalPrice.ToString();
+      OutputBox.Text = userQuote.FinalPrice.ToString();
     }
+
   }
 }

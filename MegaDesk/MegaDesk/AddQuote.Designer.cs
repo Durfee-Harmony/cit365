@@ -247,6 +247,7 @@
       this.Name = "AddQuote";
       this.Text = "Add New Quote";
       this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormClosingEvent);
+     
       ((System.ComponentModel.ISupportInitialize)(this.NumDeskWidth)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.NumDeskDepth)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.NumNumberOfDrawers)).EndInit();
