@@ -28,9 +28,6 @@ namespace MegaDesk
             materialType.SelectedIndex = -1;
 
             loadGrid();
-
-    
-
         }
 
 

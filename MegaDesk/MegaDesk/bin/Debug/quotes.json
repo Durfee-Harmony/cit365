@@ -50,5 +50,18 @@
     },
     "FinalPrice": 1790.0,
     "QuotePrice": 0.0
+  },
+  {
+    "BASE_PRICE": 200,
+    "CustomerName": "John",
+    "DaysToComplete": 0,
+    "Desk": {
+      "Width": 34,
+      "Depth": 25,
+      "NumberOfDrawers": 3,
+      "DesktopMaterial": 4
+    },
+    "FinalPrice": 410.0,
+    "QuotePrice": 0.0
   }
 ]

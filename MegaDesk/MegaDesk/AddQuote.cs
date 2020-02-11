@@ -62,8 +62,6 @@ namespace MegaDesk
       userQuote.getRushOrderPrices();
       userQuote.CalculateQuotePrice();
 
-      OutputBox.Text = userQuote.FinalPrice.ToString();
-
       var quotesFile = @"quotes.json";
       var finalJson = " ";
 
@@ -80,8 +78,8 @@ namespace MegaDesk
         writer.Write(finalJson);
       }
 
-      // this.Hide();
-      // this.mainMenu.Show();
+      this.Hide();
+      this.mainMenu.Show();
 
     }
   }
