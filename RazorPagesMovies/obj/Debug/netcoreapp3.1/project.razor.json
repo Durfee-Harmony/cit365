@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\RazorPagesMovies.csproj",
+  "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\RazorPagesMovies.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20501,62 +20501,62 @@
   "RootNamespace": "RazorPagesMovies",
   "Documents": [
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\Error.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\Movies\\Details.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\Movies\\Details.cshtml",
       "TargetPath": "Pages\\Movies\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\Index.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\Privacy.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\Movies\\Create.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\Movies\\Create.cshtml",
       "TargetPath": "Pages\\Movies\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\Movies\\Delete.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\Movies\\Delete.cshtml",
       "TargetPath": "Pages\\Movies\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\Movies\\Index.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\Movies\\Index.cshtml",
       "TargetPath": "Pages\\Movies\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\RazorPagesMovies\\Pages\\Movies\\Edit.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\razorpagesmovies\\Pages\\Movies\\Edit.cshtml",
       "TargetPath": "Pages\\Movies\\Edit.cshtml",
       "FileKind": "mvc"
     }

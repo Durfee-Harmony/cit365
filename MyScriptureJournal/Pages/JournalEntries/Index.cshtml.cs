@@ -22,12 +22,13 @@ namespace MyScriptureJournal.Pages_JournalEntries
       }
 
       public IList<JournalEntry> JournalEntry { get; set; }
+
+
       [BindProperty(SupportsGet = true)]
       public string BookSearchString { get; set; }
 
       [BindProperty(SupportsGet = true)]
       public string KeywordSearchString { get; set; }
-
 
       [BindProperty(SupportsGet = true)]
       public string OrderBy { get; set; }

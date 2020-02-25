@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\MyScriptureJournal.csproj",
+  "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\MyScriptureJournal.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20501,62 +20501,62 @@
   "RootNamespace": "MyScriptureJournal",
   "Documents": [
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\Error.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\JournalEntries\\Index.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\JournalEntries\\Index.cshtml",
       "TargetPath": "Pages\\JournalEntries\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\JournalEntries\\Details.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\JournalEntries\\Details.cshtml",
       "TargetPath": "Pages\\JournalEntries\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\JournalEntries\\Edit.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\JournalEntries\\Edit.cshtml",
       "TargetPath": "Pages\\JournalEntries\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\JournalEntries\\Delete.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\JournalEntries\\Delete.cshtml",
       "TargetPath": "Pages\\JournalEntries\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\Privacy.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\Index.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\JournalEntries\\Create.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\JournalEntries\\Create.cshtml",
       "TargetPath": "Pages\\JournalEntries\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\Software_Dev_NET\\cit365\\MyScriptureJournal\\Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\users\\ryanlukecross\\documents\\2020_Winter\\software_dev_NET\\cit365\\MyScriptureJournal\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
