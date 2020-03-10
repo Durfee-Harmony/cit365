@@ -26,6 +26,8 @@ namespace RazorPagesMovies.Pages.Movies
       public string SearchString { get; set; }
 
       public SelectList Genres { get; set; }
+
+
       [BindProperty(SupportsGet = true)]
       public string MovieGenre { get; set; }
 
