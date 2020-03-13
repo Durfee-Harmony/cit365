@@ -27,7 +27,8 @@ namespace MvcMovie.Models
                    ReleaseDate = DateTime.Parse("2001-12-14"),
                    Genre = "Adventure",
                    Rating = "PG",
-                   Price = 7.99M
+                   Price = 7.99M,
+                   ImagePath = "/images/heavenpic.jpg"
                 },
                 new Movie
                 {
@@ -35,7 +36,8 @@ namespace MvcMovie.Models
                    ReleaseDate = DateTime.Parse("2000-03-10"),
                    Genre = "Drama",
                    Rating = "PG",
-                   Price = 8.99M
+                   Price = 8.99M,
+                   ImagePath = ""
                 },
 
                 new Movie

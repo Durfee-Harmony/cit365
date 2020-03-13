@@ -9,6 +9,18 @@ namespace MvcMovie.Models
       public SelectList Genres { get; set; }
       public string MovieGenre { get; set; }
       public string SearchString { get; set; }
-      public string SortDate { get; set; }
+
+      private string init = "ReleaseDate_Asc_Sort";
+      public string SortDate
+      {
+         get
+         {
+            return init;
+         }
+         set
+         {
+            init = value;
+         }
+      }
    }
 }
